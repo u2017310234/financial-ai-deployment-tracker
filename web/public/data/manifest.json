@@ -1,0 +1,13 @@
+{
+  "schema_version": "1",
+  "releases": [
+    {
+      "release_id": "2026H1-four-major-banks-v0.1",
+      "generated_at": "2026-08-30T12:34:45.351570+00:00",
+      "file": "/data/releases/2026H1-four-major-banks-v0.1.json"
+    }
+  ],
+  "institution_count": 4,
+  "report_count": 4,
+  "evidence_count": 20
+}

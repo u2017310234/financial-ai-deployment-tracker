@@ -1,0 +1,58 @@
+[
+  {
+    "report_id": "report_cn_icbc_2026H1",
+    "institution_id": "cn_icbc",
+    "ticker": "601398",
+    "report_type": "semiannual",
+    "period_label": "2026H1",
+    "period_end": "2026-06-30",
+    "published_at": "2026-08-29",
+    "title": "工商银行2026半年度报告",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF",
+    "source_announcement_id": "1225526043",
+    "pdf_sha256": "4414ac7a0ddec5a2f60d6d49402aecb90d7a1bf907e90d8100955c8631c48a0b",
+    "page_count": 272
+  },
+  {
+    "report_id": "report_cn_ccb_2026H1",
+    "institution_id": "cn_ccb",
+    "ticker": "601939",
+    "report_type": "semiannual",
+    "period_label": "2026H1",
+    "period_end": "2026-06-30",
+    "published_at": "2026-08-29",
+    "title": "建设银行2026年半年度报告",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF",
+    "source_announcement_id": "1225531678",
+    "pdf_sha256": "44df14ec06aa5c44eb6584f8746a12a35a542207cc9b05f4559c0a1ab05c0735",
+    "page_count": 331
+  },
+  {
+    "report_id": "report_cn_boc_2026H1",
+    "institution_id": "cn_boc",
+    "ticker": "601988",
+    "report_type": "semiannual",
+    "period_label": "2026H1",
+    "period_end": "2026-06-30",
+    "published_at": "2026-08-29",
+    "title": "中国银行股份有限公司2026年半年度报告",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526341.PDF",
+    "source_announcement_id": "1225526341",
+    "pdf_sha256": "b798a5056ed8ed888e6d8c89e061ab379c872095dd090b4b14b50e4c42f6186d",
+    "page_count": 183
+  },
+  {
+    "report_id": "report_cn_abc_2026H1",
+    "institution_id": "cn_abc",
+    "ticker": "601288",
+    "report_type": "semiannual",
+    "period_label": "2026H1",
+    "period_end": "2026-06-30",
+    "published_at": "2026-08-29",
+    "title": "农业银行2026年半年度报告",
+    "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527334.PDF",
+    "source_announcement_id": "1225527334",
+    "pdf_sha256": "727d2ba1b602442de76815414519a1a7ae531a55e9821d577b7af288df526601",
+    "page_count": 284
+  }
+]

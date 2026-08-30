@@ -1,0 +1,101 @@
+{
+  "qa_status": "PASS",
+  "release_id": "2026H1-four-major-banks-v0.1",
+  "manifest": {
+    "schema_version": "1",
+    "releases": [
+      {
+        "release_id": "2026H1-four-major-banks-v0.1",
+        "generated_at": "2026-08-30T12:34:45.351570+00:00",
+        "file": "/data/releases/2026H1-four-major-banks-v0.1.json"
+      }
+    ],
+    "institution_count": 4,
+    "report_count": 4,
+    "evidence_count": 20
+  },
+  "validation_stdout": "{'validated': 'data/releases/2026H1-four-major-banks-v0.1.json', 'reports': 4, 'evidence': 20}",
+  "build_stdout": "{'schema_version': '1', 'releases': [{'release_id': '2026H1-four-major-banks-v0.1', 'generated_at': '2026-08-30T12:34:45.351570+00:00', 'file': '/data/releases/2026H1-four-major-banks-v0.1.json'}], 'institution_count': 4, 'report_count': 4, 'evidence_count': 20}",
+  "files": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "bytes": 821,
+      "sha256": "a86a4e05865d738d205e639e222c14f9d404c24fdfe08bc633b3adc16e626fae"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 573,
+      "sha256": "a140d388373aced95017ef9377ee11cbaba9b58cd4c1c93f57e2fea3cbb8313b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 232,
+      "sha256": "f718d6ed2da749a34341955715518be21feaa6f21db94516d373b8e9d9c57a58"
+    },
+    {
+      "path": "README.md",
+      "bytes": 573,
+      "sha256": "c6acfb507683889ded5cba3dc9309e7147ad043b76d5c99742f3415492a029aa"
+    },
+    {
+      "path": "data/releases/2026H1-four-major-banks-v0.1.json",
+      "bytes": 18867,
+      "sha256": "0dd03dc7e791a37d31ff78378fffe8c4d5b8f5bdebbd73d3de0ac3e2b666789f"
+    },
+    {
+      "path": "pipeline/build_web_index.py",
+      "bytes": 2081,
+      "sha256": "a8d699dad251851ee09ccfd79a58c6ab46cd9a429dc0d32dc32681748f7127f7"
+    },
+    {
+      "path": "pipeline/validate_release.py",
+      "bytes": 1359,
+      "sha256": "bb961710ce4049888744196d0e97acd6cda2c6873d4b6a436da7c707fc94f01f"
+    },
+    {
+      "path": "schemas/release.schema.json",
+      "bytes": 4417,
+      "sha256": "18bbd6b604f5327233c8992be9f32697e0491ffca25c95ad6631569ef5a591dc"
+    },
+    {
+      "path": "web/public/app.js",
+      "bytes": 2986,
+      "sha256": "624e70175112a9ab7b94f425b0cee3173ad02e0c5ec345accd21ed9b7dfe43be"
+    },
+    {
+      "path": "web/public/data/institutions.json",
+      "bytes": 623,
+      "sha256": "ed6038dafa472241e14af0a818f946819331dfc396a3d014d55b740d8ef5f2aa"
+    },
+    {
+      "path": "web/public/data/manifest.json",
+      "bytes": 306,
+      "sha256": "79942624d6128f297e851ebd71b14e8d888048f4e5777ce85a6dad205efcf5bb"
+    },
+    {
+      "path": "web/public/data/reports.json",
+      "bytes": 2115,
+      "sha256": "6b44926ad7c8577835b1f19bb6ea678b7c4263e30d0ed930d7f28d2e69bbe9c9"
+    },
+    {
+      "path": "web/public/data/search-index.json",
+      "bytes": 10713,
+      "sha256": "fcb39458777c397ded26693102dbe5559656595550354a63ea71d8f0c62e9969"
+    },
+    {
+      "path": "web/public/index.html",
+      "bytes": 2180,
+      "sha256": "915431069a08edd1f677e967fb314c215a3b2530eaae37f296d483bd9499b4f8"
+    },
+    {
+      "path": "web/public/styles.css",
+      "bytes": 2961,
+      "sha256": "d5eff127cda8c0317eb5843c84e355571eda4d2fde30a6d5764feff586b43879"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "bytes": 249,
+      "sha256": "35f18c3d4b72184a1e21a8c7c3f641bb5755d55dea2b0945d7948d5f4ac5b2c8"
+    }
+  ]
+}

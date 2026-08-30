@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Financial AI Deployment Tracker Release",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "release_id",
+    "generated_at",
+    "institutions",
+    "reports",
+    "evidence"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "release_id": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "institutions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/institution"
+      }
+    },
+    "reports": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/report"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    }
+  },
+  "$defs": {
+    "institution": {
+      "type": "object",
+      "required": [
+        "institution_id",
+        "name"
+      ],
+      "properties": {
+        "institution_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "ticker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "institution_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "country_or_region": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "report": {
+      "type": "object",
+      "required": [
+        "report_id",
+        "institution_id",
+        "report_type",
+        "period_end",
+        "title",
+        "source_url"
+      ],
+      "properties": {
+        "report_id": {
+          "type": "string"
+        },
+        "institution_id": {
+          "type": "string"
+        },
+        "ticker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "report_type": {
+          "enum": [
+            "annual",
+            "semiannual",
+            "quarterly",
+            "other"
+          ]
+        },
+        "period_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_end": {
+          "type": "string"
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "page_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "evidence_id",
+        "report_id",
+        "institution_id",
+        "page_no",
+        "text",
+        "technology_groups",
+        "source_url"
+      ],
+      "properties": {
+        "evidence_id": {
+          "type": "string"
+        },
+        "report_id": {
+          "type": "string"
+        },
+        "institution_id": {
+          "type": "string"
+        },
+        "institution_name": {
+          "type": "string"
+        },
+        "ticker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "page_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "section_title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "technology_groups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deployment_hits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "finance_hits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quantitative_hits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "score": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "review_status": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

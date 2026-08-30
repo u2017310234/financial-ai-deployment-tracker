@@ -1,0 +1,30 @@
+[
+  {
+    "institution_id": "cn_boc",
+    "name": "中国银行",
+    "ticker": "601988",
+    "institution_type": "bank",
+    "country_or_region": "CN"
+  },
+  {
+    "institution_id": "cn_abc",
+    "name": "农业银行",
+    "ticker": "601288",
+    "institution_type": "bank",
+    "country_or_region": "CN"
+  },
+  {
+    "institution_id": "cn_icbc",
+    "name": "工商银行",
+    "ticker": "601398",
+    "institution_type": "bank",
+    "country_or_region": "CN"
+  },
+  {
+    "institution_id": "cn_ccb",
+    "name": "建设银行",
+    "ticker": "601939",
+    "institution_type": "bank",
+    "country_or_region": "CN"
+  }
+]

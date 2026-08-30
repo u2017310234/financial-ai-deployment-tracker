@@ -1,0 +1,22 @@
+# Local/runtime state
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# Data factory internals must never be published
+*.sqlite
+*.sqlite3
+*.db
+*.pdf
+raw/
+normalized/
+state/
+annual_reports/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

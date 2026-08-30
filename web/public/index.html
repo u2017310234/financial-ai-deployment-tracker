@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="可追溯的金融机构 AI / 大模型真实落地证据库" />
+  <title>Financial AI Deployment Tracker</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">EVIDENCE-FIRST · FINANCIAL AI</div>
+      <h1>Financial AI Deployment Tracker</h1>
+      <p>追踪金融机构 AI、大模型与智能体的真实落地。每条记录都回到原始披露、页码和证据文本。</p>
+      <div id="stats" class="stats" aria-live="polite"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel filters" aria-label="筛选条件">
+      <label>机构
+        <select id="institution"><option value="">全部机构</option></select>
+      </label>
+      <label>技术
+        <select id="technology">
+          <option value="">全部技术</option>
+          <option value="llm">LLM / 大模型</option>
+          <option value="agent">Agent / 智能体</option>
+          <option value="rag">RAG</option>
+          <option value="mcp">MCP</option>
+          <option value="copilot">Copilot</option>
+          <option value="model_name">模型名</option>
+        </select>
+      </label>
+      <label class="search-label">全文搜索
+        <input id="query" type="search" placeholder="例如：风控、客服、智能体、DeepSeek…" />
+      </label>
+      <button id="reset" type="button">清空</button>
+    </section>
+
+    <section class="notice">
+      <strong>审计基准：</strong>原始报告链接 + PDF 页码 + 原文证据。章节标题来自结构解析，仅用于辅助定位，不作为独立事实依据。
+    </section>
+
+    <section class="result-head">
+      <h2>证据条目</h2>
+      <span id="result-count"></span>
+    </section>
+    <section id="results" class="results" aria-live="polite"></section>
+  </main>
+
+  <footer>Financial AI Deployment Tracker · Source-traceable research infrastructure</footer>
+  <script src="/app.js" defer></script>
+</body>
+</html>

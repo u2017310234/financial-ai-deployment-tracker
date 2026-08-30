@@ -1,0 +1,598 @@
+{
+  "schema_version": "1",
+  "release_id": "2026H1-four-major-banks-v0.1",
+  "generated_at": "2026-08-30T12:34:45.351570+00:00",
+  "release_type": "curated_evidence",
+  "notes": "Curated high-signal evidence from the successful four-major-bank 2026H1 parser/evidence regression. Rows are evidence records and are not guaranteed to represent distinct deployment events. PDF page + source URL are the audit baseline; parser-derived section structure is intentionally omitted in this first public release.",
+  "institutions": [
+    {
+      "institution_id": "cn_icbc",
+      "name": "工商银行",
+      "ticker": "601398",
+      "institution_type": "bank",
+      "country_or_region": "CN"
+    },
+    {
+      "institution_id": "cn_ccb",
+      "name": "建设银行",
+      "ticker": "601939",
+      "institution_type": "bank",
+      "country_or_region": "CN"
+    },
+    {
+      "institution_id": "cn_boc",
+      "name": "中国银行",
+      "ticker": "601988",
+      "institution_type": "bank",
+      "country_or_region": "CN"
+    },
+    {
+      "institution_id": "cn_abc",
+      "name": "农业银行",
+      "ticker": "601288",
+      "institution_type": "bank",
+      "country_or_region": "CN"
+    }
+  ],
+  "reports": [
+    {
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "ticker": "601398",
+      "report_type": "semiannual",
+      "period_label": "2026H1",
+      "period_end": "2026-06-30",
+      "published_at": "2026-08-29",
+      "title": "工商银行2026半年度报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF",
+      "source_announcement_id": "1225526043",
+      "pdf_sha256": "4414ac7a0ddec5a2f60d6d49402aecb90d7a1bf907e90d8100955c8631c48a0b",
+      "page_count": 272
+    },
+    {
+      "report_id": "report_cn_ccb_2026H1",
+      "institution_id": "cn_ccb",
+      "ticker": "601939",
+      "report_type": "semiannual",
+      "period_label": "2026H1",
+      "period_end": "2026-06-30",
+      "published_at": "2026-08-29",
+      "title": "建设银行2026年半年度报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF",
+      "source_announcement_id": "1225531678",
+      "pdf_sha256": "44df14ec06aa5c44eb6584f8746a12a35a542207cc9b05f4559c0a1ab05c0735",
+      "page_count": 331
+    },
+    {
+      "report_id": "report_cn_boc_2026H1",
+      "institution_id": "cn_boc",
+      "ticker": "601988",
+      "report_type": "semiannual",
+      "period_label": "2026H1",
+      "period_end": "2026-06-30",
+      "published_at": "2026-08-29",
+      "title": "中国银行股份有限公司2026年半年度报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526341.PDF",
+      "source_announcement_id": "1225526341",
+      "pdf_sha256": "b798a5056ed8ed888e6d8c89e061ab379c872095dd090b4b14b50e4c42f6186d",
+      "page_count": 183
+    },
+    {
+      "report_id": "report_cn_abc_2026H1",
+      "institution_id": "cn_abc",
+      "ticker": "601288",
+      "report_type": "semiannual",
+      "period_label": "2026H1",
+      "period_end": "2026-06-30",
+      "published_at": "2026-08-29",
+      "title": "农业银行2026年半年度报告",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527334.PDF",
+      "source_announcement_id": "1225527334",
+      "pdf_sha256": "727d2ba1b602442de76815414519a1a7ae531a55e9821d577b7af288df526601",
+      "page_count": 284
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev_b512996db4343bdd76bf",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 50,
+      "section_title": null,
+      "text": "接续实施“领航AI+”行动，大模型已在600余个场景落地，形成智能体层次化建设框架。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "落地",
+        "建设"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_858ecf8bed6ecd88e5f0",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 50,
+      "section_title": null,
+      "text": "面向客户经理、风险经理、审贷官等一线岗位建设的智能体进入试点推广阶段。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设",
+        "试点",
+        "推广"
+      ],
+      "finance_hits": [
+        "客户经理",
+        "风险经理",
+        "审贷官"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_a050f120c491176cd50c",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 55,
+      "section_title": null,
+      "text": "探索网点对客服务大模型应用场景，并开展网点客户服务大模型试点。",
+      "context": null,
+      "technology_groups": [
+        "llm"
+      ],
+      "deployment_hits": [
+        "应用",
+        "试点"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_e911a4ad79448cd5b5d6",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 69,
+      "section_title": null,
+      "text": "在信贷风险领域应用大模型能力，构建融资智能体矩阵“智融通”。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "应用",
+        "建设"
+      ],
+      "finance_hits": [
+        "信贷",
+        "风控"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_825a18af74c1ebc779fb",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 89,
+      "section_title": null,
+      "text": "利用大模型综合研报、媒体、财务报表及信用数据等信息，辅助研判客户风险演化。",
+      "context": null,
+      "technology_groups": [
+        "llm"
+      ],
+      "deployment_hits": [
+        "应用"
+      ],
+      "finance_hits": [
+        "风控"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_b9d90b51df27f9049094",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 90,
+      "section_title": null,
+      "text": "网点客户助手已支持21项高频自助任务，试点期办理交易超过30万笔。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "试点",
+        "应用"
+      ],
+      "finance_hits": [
+        "运营"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_61a66fd7f1770fb408a3",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 91,
+      "section_title": null,
+      "text": "内控合规领域打造“AI智审”智能体，累计生成审查意见约36万条，采纳率98.6%。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设",
+        "应用"
+      ],
+      "finance_hits": [
+        "合规"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_ca56dc4a32d8cfe07891",
+      "report_id": "report_cn_icbc_2026H1",
+      "institution_id": "cn_icbc",
+      "institution_name": "工商银行",
+      "ticker": "601398",
+      "page_no": 91,
+      "section_title": null,
+      "text": "信用卡审查数字助手报告期内使用超过282万次，并利用大模型辅助生成客户全景和审批建议。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "应用"
+      ],
+      "finance_hits": [
+        "授信"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526043.PDF"
+    },
+    {
+      "evidence_id": "ev_48ca64b1d4f4580594ee",
+      "report_id": "report_cn_ccb_2026H1",
+      "institution_id": "cn_ccb",
+      "institution_name": "建设银行",
+      "ticker": "601939",
+      "page_no": 45,
+      "section_title": null,
+      "text": "体系化推进“人工智能+”行动，正式发布三年发展规划；截至6月末，生成式人工智能已覆盖超过600个应用场景，并推进AI原生智能体应用建设。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "发布",
+        "覆盖",
+        "建设"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": 1.0,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF"
+    },
+    {
+      "evidence_id": "ev_335e5cb85874348d95e3",
+      "report_id": "report_cn_ccb_2026H1",
+      "institution_id": "cn_ccb",
+      "institution_name": "建设银行",
+      "ticker": "601939",
+      "page_no": 33,
+      "section_title": null,
+      "text": "建设智能体平台，生成式人工智能覆盖600余个核心应用场景。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设",
+        "覆盖"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF"
+    },
+    {
+      "evidence_id": "ev_119423e43ebebf166596",
+      "report_id": "report_cn_ccb_2026H1",
+      "institution_id": "cn_ccb",
+      "institution_name": "建设银行",
+      "ticker": "601939",
+      "page_no": 36,
+      "section_title": null,
+      "text": "建设个人客户经营智能体，上线“帮得”Air版，探索AI原生对话式业务办理。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设",
+        "上线"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF"
+    },
+    {
+      "evidence_id": "ev_9d628cf14be24eb9731b",
+      "report_id": "report_cn_ccb_2026H1",
+      "institution_id": "cn_ccb",
+      "institution_name": "建设银行",
+      "ticker": "601939",
+      "page_no": 45,
+      "section_title": null,
+      "text": "构建大数据应用研发智能体框架，提升数据分析与研发效率。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设",
+        "研发"
+      ],
+      "finance_hits": [
+        "研发"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF"
+    },
+    {
+      "evidence_id": "ev_bf74d3b424ad9832603e",
+      "report_id": "report_cn_ccb_2026H1",
+      "institution_id": "cn_ccb",
+      "institution_name": "建设银行",
+      "ticker": "601939",
+      "page_no": 49,
+      "section_title": null,
+      "text": "在智能风控平台嵌入客户风险识别、业务风险分析等智能体。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "应用"
+      ],
+      "finance_hits": [
+        "风控"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF"
+    },
+    {
+      "evidence_id": "ev_47a692a11cc5786ec475",
+      "report_id": "report_cn_ccb_2026H1",
+      "institution_id": "cn_ccb",
+      "institution_name": "建设银行",
+      "ticker": "601939",
+      "page_no": 38,
+      "section_title": null,
+      "text": "建设私人银行数字化服务智能体，提升财富管理服务能力。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设",
+        "应用"
+      ],
+      "finance_hits": [
+        "财富管理"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531678.PDF"
+    },
+    {
+      "evidence_id": "ev_18f30d940fabc7b7bac0",
+      "report_id": "report_cn_boc_2026H1",
+      "institution_id": "cn_boc",
+      "institution_name": "中国银行",
+      "ticker": "601988",
+      "page_no": 10,
+      "section_title": null,
+      "text": "升级BOCAI大模型平台及智能体，构建智能化助手超过2,200个；BOCAI大模型用户突破3.2万人。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "升级",
+        "建设",
+        "覆盖"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526341.PDF"
+    },
+    {
+      "evidence_id": "ev_170986ae36b764345688",
+      "report_id": "report_cn_boc_2026H1",
+      "institution_id": "cn_boc",
+      "institution_name": "中国银行",
+      "ticker": "601988",
+      "page_no": 41,
+      "section_title": null,
+      "text": "制定“人工智能+金融”落实方案，升级BOCAI大模型平台及智能体能力，覆盖信贷、营销、运营、风控、客服、办公和科技等场景。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "应用",
+        "覆盖"
+      ],
+      "finance_hits": [
+        "信贷",
+        "营销",
+        "运营",
+        "风控",
+        "客服",
+        "研发"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225526341.PDF"
+    },
+    {
+      "evidence_id": "ev_72629e4034a581cb78a1",
+      "report_id": "report_cn_abc_2026H1",
+      "institution_id": "cn_abc",
+      "institution_name": "农业银行",
+      "ticker": "601288",
+      "page_no": 36,
+      "section_title": null,
+      "text": "深入推进智慧银行建设，以智能体应用为抓手，推动全行AI规模化、普惠化应用。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设",
+        "应用",
+        "规模化"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527334.PDF"
+    },
+    {
+      "evidence_id": "ev_6d3f21b5a81f7121c7d4",
+      "report_id": "report_cn_abc_2026H1",
+      "institution_id": "cn_abc",
+      "institution_name": "农业银行",
+      "ticker": "601288",
+      "page_no": 51,
+      "section_title": null,
+      "text": "私有化部署多个大模型，完善模型矩阵，加快探索智能体应用并开发农行版“龙虾”（ABC-Claw）。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "部署",
+        "应用"
+      ],
+      "finance_hits": [],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527334.PDF"
+    },
+    {
+      "evidence_id": "ev_0007fe28fa0a9ac4fb85",
+      "report_id": "report_cn_abc_2026H1",
+      "institution_id": "cn_abc",
+      "institution_name": "农业银行",
+      "ticker": "601288",
+      "page_no": 55,
+      "section_title": null,
+      "text": "应用大模型增强客服机器人意图理解和多轮交互，并研发外呼智能体。",
+      "context": null,
+      "technology_groups": [
+        "llm",
+        "agent"
+      ],
+      "deployment_hits": [
+        "应用",
+        "研发"
+      ],
+      "finance_hits": [
+        "客服"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527334.PDF"
+    },
+    {
+      "evidence_id": "ev_e2da4f7d6e394f54ce55",
+      "report_id": "report_cn_abc_2026H1",
+      "institution_id": "cn_abc",
+      "institution_name": "农业银行",
+      "ticker": "601288",
+      "page_no": 85,
+      "section_title": null,
+      "text": "推进内控合规智能体建设，强化合规管理的智能化能力。",
+      "context": null,
+      "technology_groups": [
+        "agent"
+      ],
+      "deployment_hits": [
+        "建设"
+      ],
+      "finance_hits": [
+        "合规"
+      ],
+      "quantitative_hits": [],
+      "score": null,
+      "review_status": "QA_SOURCE_TRACEABLE",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225527334.PDF"
+    }
+  ]
+}
